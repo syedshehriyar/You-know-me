@@ -5,7 +5,7 @@ var score=0;
 var userName = readlineSync.question("Enter your name:\n");
 console.log(chalk.blueBright("Hey,"+userName+"."));
 console.log("let's play a short game on how good you know Shehriyar?\n");
-
+console.log("Note: Use only lowercase letters\n");
 function quiz(question,answer){
   var useranswer=readlineSync.question(question);
 
@@ -29,20 +29,16 @@ var quests = [{
     answer:"august"
   },
   {
-    question:"Did i ever got transformed physically in my life?",
+    question:"Did i ever visited to a city out of Hyderabad?",
     answer: "yes"
   },
   {
-    question:"What's my favourite sweetdish?",
-    answer:"kheer"
+    question:"Which city it was?",
+    answer:"mumbai"
   },
   {
-    question:"If i start talking about something i go on talking much?",
-    answer: "yes"
-  },
-  {
-    question:"My favourite Islamic scholar?",
-    answer: "tahir ul qadri"
+    question:"My college name?Just initial",
+    answer: "isl"
   },
 ]
 
